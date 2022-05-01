@@ -73,8 +73,8 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 69
       flipNormals: 0
-    vertexPathUpToDate: 0
-    vertexPathMaxAngleError: 0.3
+    vertexPathUpToDate: 1
+    vertexPathMaxAngleError: 0
     vertexPathMinVertexSpacing: 0
     showTransformTool: 1
     showPathBounds: 0
