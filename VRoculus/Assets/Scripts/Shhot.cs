@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shhot : MonoBehaviour
 {
-
+    [SerializeField] ParticleSystem vfx;
 
     [SerializeField] Transform firePoint;
 
@@ -23,11 +23,13 @@ public class Shhot : MonoBehaviour
     {
         if(Physics.Raycast(firePoint.position, firePoint.forward,out hit,  5000))
         {
+            vfx.Play();
+            var Interact = hit.transform.GetComponent<InteractionManager>();
+            if(Interact != null)
+            {
+                Interact.Implement();
+            }
             Debug.Log(hit.transform.name);
         }
-
-        //var Instance = Instantiate(bullet, firePoint.position, Quaternion.identity);
-        //Instance.AddForce(firePoint.forward * speed);
-        //Destroy(Instance.gameObject, 10);
     }
 }
