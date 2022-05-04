@@ -10,7 +10,7 @@ public class BuggyHandler : MonoBehaviour
 
     private void Start()
     {
-        splineFollowerScript.followSpeed = 0;
+        splineFollowerScript.followSpeed = 4;
     }
 
     private void Update()
