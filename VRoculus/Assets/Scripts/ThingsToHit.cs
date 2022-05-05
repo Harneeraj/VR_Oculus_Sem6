@@ -8,7 +8,7 @@ public class ThingsToHit : InteractionManager
 
     MeshRenderer mesh;
 
-    bool isShot;
+    bool isShot = true;
 
     private void Start()
     {

@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Main Scene/RockyMountains.unity
+    guid: c2a0bde8de68ca4478d1c89e004b2d67
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7bf0d2b4b9c6ea945a5299f0a6bb5344, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 240c4f12d91b23f44920e940cdf08034, type: 2}
