@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3446995223261630021}
   - component: {fileID: 6936713698888632083}
   - component: {fileID: -6609880609491646291}
+  - component: {fileID: 1072114657637329837}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa9712ae5fff9ad439cf643aa81ff674, type: 2}
+  - {fileID: 2100000, guid: 2e70cc23c9ed6e64e88924e2ff02ff78, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,3 +109,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9201804a83e6e1848a3bc41dd1f2631f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1072114657637329837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298640433023099669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db572edc6b05c847953bce61253d838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitMat: {fileID: 2100000, guid: 9718c41ba32a88f4bb115718d526f786, type: 2}
+  Scory: 1

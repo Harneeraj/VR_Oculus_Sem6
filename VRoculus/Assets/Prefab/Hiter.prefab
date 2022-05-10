@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 2313353983610876011}
   - component: {fileID: 5165661245078321482}
   - component: {fileID: 7202222824647230653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,6 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitMat: {fileID: 2100000, guid: ce34375a6c4de3f48bde8dc28c3a1288, type: 2}
+  Scory: 2
 --- !u!1 &7805983141961476867
 GameObject:
   m_ObjectHideFlags: 0

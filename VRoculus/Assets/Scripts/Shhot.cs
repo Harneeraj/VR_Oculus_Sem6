@@ -10,6 +10,8 @@ public class Shhot : MonoBehaviour
 
     [SerializeField] Rigidbody bullet;
 
+    [SerializeField] LayerMask WhatToShoot;
+
     [SerializeField] float sphereRadius = 5;
 
     [SerializeField] float speed;
@@ -23,14 +25,14 @@ public class Shhot : MonoBehaviour
 
     public void Shoot()
     {
-        //ByRaycasting();
-        BySphereCasting();
+        ByRaycasting();
+        //BySphereCasting();
 
     }
 
     void BySphereCasting()
     {
-        if(Physics.SphereCast(firePoint.position, sphereRadius,firePoint.forward, out hit, 5000))
+        if(Physics.SphereCast(firePoint.position, sphereRadius,firePoint.forward, out hit, 5000, WhatToShoot))
         {
             vfx.Play();
             var Interact = hit.transform.GetComponent<InteractionManager>();

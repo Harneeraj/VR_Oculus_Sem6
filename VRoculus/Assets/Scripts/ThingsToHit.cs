@@ -8,6 +8,8 @@ public class ThingsToHit : InteractionManager
 
     MeshRenderer mesh;
 
+    [SerializeField] int Scory;
+
     bool isShot = true;
 
     private void Start()
@@ -20,7 +22,7 @@ public class ThingsToHit : InteractionManager
         if(isShot)
         {
             mesh.material = hitMat;
-            GameObject.FindGameObjectWithTag("UIA").GetComponent<Score>().Counter += 1;
+            GameObject.FindGameObjectWithTag("UIA").GetComponent<Score>().Counter += Scory;
             isShot = false;
         }
     }
